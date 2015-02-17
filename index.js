@@ -35,7 +35,7 @@ function getQuote (symbol) {
 }
 
 function getCats () {
-  var query = {v: '1.0', rsz: '8', q: "nic cage cats", safe: 'active'}
+  var query = {v: '1.0', rsz: '8', q: "ascii cat", safe: 'active'}
   request
     .get('http://ajax.googleapis.com/ajax/services/search/images')
     .query(query)
